@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:background="@drawable/download"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Enter your name"
+                android:textSize="15sp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:id="@+id/firstname_text"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:hint="First Name"
+                android:textColorHint="#1A1717" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="35dp"
+                android:hint="Middle Name"
+                android:textColorHint="#1A1717"/>
+
+
+            <EditText
+                android:id="@+id/lastname_text"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="70dp"
+                android:hint="Last Name"
+                android:textColorHint="#1A1717"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="130dp"
+                android:text="Enter your DOB"
+                android:textSize="15sp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="120dp"
+                android:hint="DD-MM-YYYY"
+                android:inputType="date"
+                android:textColorHint="#1A1717"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="200dp"
+                android:text="Gender"
+                android:textSize="15sp"
+                android:textColor="#1A1717"/>
+
+            <Spinner
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="150dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserID"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:id="@+id/username_text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="150dp"
+                android:textColorHint="#1A1717"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="300dp"
+                android:textSize="15sp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:id="@+id/password_text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="150dp"
+                android:hint="Password"
+                android:textColorHint="#1A1717"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm password"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="350dp"
+                android:textSize="15sp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:id="@+id/confirm_text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="Retype your password"
+                android:layout_marginTop="335dp"
+                android:layout_marginLeft="170dp"
+                android:textColorHint="#1A1717"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:enabled="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do you wear spects"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="510dp"
+                android:textColor="#1A1717"/>
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:layout_marginLeft="190dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter email id"
+                android:textSize="15sp"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:id="@+id/email_text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="eg.param123@gmail.com"
+                android:inputType="textEmailAddress"
+                android:layout_marginTop="385dp"
+                android:layout_marginLeft="120dp"
+                android:textColorHint="#1A1717"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="For how many years you are using social media"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="450dp"
+                android:textColor="#1A1717"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:hint="eg. 1,2,3..."
+                android:layout_marginTop="440dp"
+                android:layout_marginLeft="220dp"
+                android:textColorHint="#1A1717"
+                android:inputType="number"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

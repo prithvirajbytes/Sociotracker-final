@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity"
+    android:orientation="vertical"
+    android:background="@drawable/download">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill the contact details and  your health details"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#1A1717"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional contact number"
+        android:textSize="15sp"
+        android:textColor="#1A1717"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginLeft="200dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/additional_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional EmailId"
+        android:textColor="#1A1717"
+        android:textSize="15sp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="94dp"
+                android:layout_marginLeft="150dp"
+                android:inputType="textEmailSubject"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Occupation"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="160dp"/>
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/background"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do you have any of these diseases"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="10dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hypertension(High BP)"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_marginTop="230dp"
+                android:layout_marginLeft="10dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Insomnia"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="10dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diabetes"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="10dp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Any kind of joint problems"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_marginTop="320dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="If any specific disease please specify"
+                android:textColor="#1A1717"
+                android:textSize="15sp"
+                android:layout_marginTop="360dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="260dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                android:textSize="15sp"
+                android:textColor="#1A1717"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="550dp"/>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

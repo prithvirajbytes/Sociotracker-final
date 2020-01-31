@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "777728844333",
+    "firebase_url": "https://sociotracker-beb27.firebaseio.com",
+    "project_id": "sociotracker-beb27",
+    "storage_bucket": "sociotracker-beb27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777728844333:android:5656b127513d881fa50ea4",
+        "android_client_info": {
+          "package_name": "com.example.sociotracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777728844333-79a3hr5uirg54dab4g3r009qjhcpc7pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6qd2UwaoCJK0_e4tdfeyR08eSH_tSkBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777728844333-79a3hr5uirg54dab4g3r009qjhcpc7pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
